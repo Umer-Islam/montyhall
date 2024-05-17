@@ -14,6 +14,8 @@ let car = Math.random()*3
 
 function funcDoor1(){
     document.querySelector('.door1').innerText = "🐐"
+
+    document.querySelector('h2').innerText = "😢"
 }
 
 function funcDoor2(){
@@ -22,6 +24,12 @@ function funcDoor2(){
     document.querySelector('h2').innerText = "Think again"
 }
 
-function funcDoor3(){}
+function funcDoor3(){
+
+    document.querySelector('.door3').innerText = "🚘"
+
+    document.querySelector('h2').innerText = "🎉🎉🎈🎊🥳"
+
+}
 
 

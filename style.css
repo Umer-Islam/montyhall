@@ -27,3 +27,41 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 3rem;    
 }
+
+body{
+}
+@media screen and (max-width:450px){
+    body{
+        background-color: aquamarine;
+
+    }
+    section div{
+
+        font-size: 3rem;
+    
+        border: black solid 1px;
+        padding: .5rem;
+        cursor: pointer;
+    
+    }
+    section div:hover{
+        background-color: gainsboro;
+    }
+    
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+    h1{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    h2{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;    
+    }
+}

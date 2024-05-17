@@ -7,9 +7,11 @@ section div {
   border-radius: 5%;
 }
 section div:hover {
-  background-color: gainsboro;
+  background-color: peachpuff;
 }
-
+hr{
+    width: 60%;
+}
 section {
   display: flex;
   justify-content: center;
@@ -28,6 +30,7 @@ h2 {
 }
 
 body {
+    background-color: gainsboro;
 }
 @media screen and (max-width: 450px) {
   body {

@@ -7,9 +7,6 @@ door_3 = document.querySelector('.door3').addEventListener('click',funcDoor3)
 let car = Math.random()*3 
 
 
-if 
-
-
 
 
 

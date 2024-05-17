@@ -1,6 +1,14 @@
 section div{
 
     font-size: 6rem;
+
+    border: black solid 1px;
+    padding: .5rem;
+    cursor: pointer;
+
+}
+section div:hover{
+    background-color: gainsboro;
 }
 
 section{
@@ -12,4 +20,10 @@ section{
 h1{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
